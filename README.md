@@ -12,7 +12,7 @@ The big scope is this: the data is stored in [Close.io](https://close.io) and ne
 
 ## Workflow:
 
-![Send Location](https://github.com/aguscortes/zap-for-google-maps/raw/master/images/zap-google-maps.png "Send Location")
+![Send Location](https://github.com/aguscort/zap-for-google-maps/raw/master/images/zap-google-maps.png "Send Location")
 ---
 ### Step 1:
 
@@ -22,7 +22,7 @@ The big scope is this: the data is stored in [Close.io](https://close.io) and ne
 
 #### Parameters:
 
-![Parameters](https://github.com/aguscortes/zap-for-google-maps/raw/master/images/step1_parameters.png "Step 1 Parameters")
+![Parameters](https://github.com/aguscort/zap-for-google-maps/raw/master/images/step1_parameters.png "Step 1 Parameters")
 
 #### Step Description: 
 We use the Dropbox as a trigger: as soon a file is saved into a folder, the zap is launched.
@@ -40,7 +40,7 @@ We use the Dropbox as a trigger: as soon a file is saved into a folder, the zap 
 
 #### Parameters:
 
-![Parameters](https://github.com/aguscortes/zap-for-google-maps/raw/master/images/step2_parameters.png "Step 2 Parameters")
+![Parameters](https://github.com/aguscort/zap-for-google-maps/raw/master/images/step2_parameters.png "Step 2 Parameters")
 
 #### Step Description:
 Get the info from the CSV file in order to be treated in further steps.
@@ -68,7 +68,7 @@ return {'addreses' : addresses}
 
 #### Parameters:
 
-![Parameters](https://github.com/aguscortes/zap-for-google-maps/raw/master/images/step3_parameters.png "Step 3 Parameters")
+![Parameters](https://github.com/aguscort/zap-for-google-maps/raw/master/images/step3_parameters.png "Step 3 Parameters")
 
 #### Step Description:
 The strings are used through Google Maps to normalize the addresses. Some mechanisms are settled in order to improve the search and get better hit rate.
@@ -165,7 +165,7 @@ Google SHeets
 
 #### Parameters:
 
-![Parameters](https://github.com/aguscortes/zap-for-google-maps/raw/master/images/step4_parameters.png "Step 4 Parameters")
+![Parameters](https://github.com/aguscort/zap-for-google-maps/raw/master/images/step4_parameters.png "Step 4 Parameters")
 
 #### Step Description:
 The results from previou step are going to populate a Google Spreadsheet.
